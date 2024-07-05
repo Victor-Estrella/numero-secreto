@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --fonte: "Oswald", sans-serif;
+    --fundo: linear-gradient(0deg, #010153 13%, #003f72 165.7%);
+    --cor-primaria: #01d9ff;
+}
+
+html{ 
+    background: var(--fundo);
+}
+
+body{
+    min-height:100vh;
+    font-family: var(--fonte);
+    color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 6em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.box{
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    font-family: var(--fonte);
+    font-size: 1.5em;
+    background: whitesmoke;
+    border-radius:5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
